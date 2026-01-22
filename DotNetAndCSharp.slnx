@@ -1,0 +1,138 @@
+<Solution>
+  <Folder Name="/01. .NET 10 Libraries - Find certificates by thumbprints other than SHA-1/">
+    <Project Path="DotNet10.FindCertificatesByOtherThanSha1Thumbprints/DotNet10.FindCertificatesByOtherThanSha1Thumbprints.csproj" Id="4f2232d9-bc63-4bd7-b46f-4a50d8b19cdc" />
+  </Folder>
+  <Folder Name="/05. .NET 10 Libraries - Post-quantum cryptography (PQC)/">
+    <Project Path="DotNet10.PostQuantumCryptography/DotNet10.PostQuantumCryptography.csproj" Id="1feac7e3-cf1f-4817-b6b7-bf88923102df" />
+  </Folder>
+  <Folder Name="/06. .NET 10 Libraries - ISOWeek support for DateOnly/" Id="df0881c4-1524-4a92-ae39-986af73d6326">
+    <Project Path="DotNet10.IsoWeekForDateOnly/DotNet10.IsoWeekForDateOnly.csproj" Id="c0609fcd-304a-4a9e-bc40-13285acc60f2" />
+  </Folder>
+  <Folder Name="/07. .NET 10 Libraries - Numeric Ordering for String Comparison/" Id="90740dd0-5604-48cf-b95d-dcefacd19143">
+    <Project Path="DotNet10.NumericStringOrdering/DotNet10.NumericStringOrdering.csproj" Id="29ca7e15-cbc6-407f-acd1-8496d86ca35e" />
+  </Folder>
+  <Folder Name="/08. .NET 10 Libraries - TimeSpan.FromMilliseconds Overloads/" Id="d4fdc523-3e5e-4a2e-9dd8-791546e07c9d">
+    <Project Path="DotNet10.TimSpanFromMillisecondsOverloads/DotNet10.TimSpanFromMillisecondsOverloads.csproj" Id="eec1af0e-925b-4931-ac93-d9201f25fe50" />
+  </Folder>
+  <Folder Name="/09. .NET 10 Libraries - String normalization APIs to work with span of characters/">
+    <Project Path="DotNet10.StringNormailizationWithSpansOrCharacters/DotNet10.StringNormailizationWithSpansOrCharacters.csproj" Id="28f83b4a-2718-4ea0-bfe1-bd1c8508d3e6" />
+  </Folder>
+  <Folder Name="/10. .NET 10 Libraries - UTF-8 support for hex-string conversion/">
+    <Project Path="DotNet10.Utf8SupportForHexStringConversion/DotNet10.Utf8SupportForHexStringConversion.csproj" Id="39c66835-3ff1-49a2-84df-e3e1c395b1c6" />
+  </Folder>
+  <Folder Name="/11. .NET 10 Libraries - TryAdd and TryGetValue for OrderedDictionary/" Id="80ad5b0a-4f50-404f-8b7a-5eae2581f77a">
+    <Project Path="DotNet10.OrderedDictionaryTryAddTryGetValue/DotNet10.OrderedDictionaryTryAddTryGetValue.csproj" Id="3e484feb-4f84-4313-b44f-0c8b0c8a65a4" />
+  </Folder>
+  <Folder Name="/12. .NET 10 Libraries - ZipArchive performance and memory improvements/" Id="373ea31f-5dec-4396-ab1d-1b1ca5bcfa3f">
+    <Project Path="DotNet10.ImprovedZipArchive/DotNet10.ImprovedZipArchive.csproj" Id="f2113d17-44cc-4aa8-9156-434ca8e9c443" />
+  </Folder>
+  <Folder Name="/13. .NET 10 Libraries - New async ZIP APIs/">
+    <Project Path="DotNet10.NewAsyncZipApis/DotNet10.NewAsyncZipApis.csproj" Id="6e09565e-f5c2-44dd-af65-4c1bda85ffb7" />
+  </Folder>
+  <Folder Name="/14. .NET 10 Libraries - Allow specifying ReferenceHandler in JsonSourceGenerationOptions/">
+    <Project Path="DotNet10.JsonSourceGenerationReferenceHandler/DotNet10.JsonSourceGenerationReferenceHandler.csproj" Id="4137c7c7-cc8a-4ad7-ae80-5cc8736fd05e" />
+  </Folder>
+  <Folder Name="/15. .NET 10 Libraries - Option to disallow duplicate JSON properties/">
+    <Project Path="DotNet10.DissalowDuplicateJsonProperties/DotNet10.DissalowDuplicateJsonProperties.csproj" Id="771f5e76-a855-41ff-8aa4-d34fff78beaa" />
+  </Folder>
+  <Folder Name="/16. .NET 10 Libraries - Strict JSON serialization options/">
+    <Project Path="DotNet10.StrictJsonSerialization/DotNet10.StrictJsonSerialization.csproj" Id="1c15fde6-390a-444b-914d-d31fa094a1df" />
+  </Folder>
+  <Folder Name="/17. .NET 10 Libraries - PipeReader support for JSON serializer/">
+    <Project Path="DotNet10.PipeReaderWithJsonSerializer/DotNet10.PipeReaderWithJsonSerializer.csproj" Id="7fd05f92-fc3b-426a-acc4-ebaeb9c35630" />
+  </Folder>
+  <Folder Name="/18. .NET 10 Libraries - Linq LeftJoin and RightJoin/">
+    <Project Path="DotNet10.LinqLeftJoinRightJoin/DotNet10.LinqLeftJoinRightJoin.csproj" Id="b4566d78-9400-435d-8a7c-a3b49358684b" />
+  </Folder>
+  <Folder Name="/20. .NET 10 SDK - File Apps/">
+    <File Path="app1.cs" />
+    <File Path="app2.cs" />
+    <File Path="app3.cs" />
+  </Folder>
+  <Folder Name="/30. .NET 10 WinForms - Async forms/">
+    <Project Path="WinForms10.AsyncForms/WinForms10.AsyncForms.csproj" Id="065dee4b-cee5-4779-bca5-75a3228aa09e" />
+  </Folder>
+  <Folder Name="/31. .NET 10 WinForms - Dark mode/">
+    <Project Path="WinForms10.DarkMode/WinForms10.DarkMode.csproj" Id="cd617442-30dd-4fa9-a306-624d694c83a8" />
+  </Folder>
+  <Folder Name="/32. .NET 10 WinForms - ScreenCaptureMode API/">
+    <Project Path="WinForms10.ScreenCaptureMode/WinForms10.ScreenCaptureMode.csproj" Id="fe0a69a8-a84c-4706-833f-602bf055d35f" />
+  </Folder>
+  <Folder Name="/33. .NET 10 WinForms - Clipboard changes/">
+    <Project Path="WinForms10.ClipboardChanges/WinForms10.ClipboardChanges.csproj" Id="f310191d-caca-4c4d-9e75-d5943f7b623c" />
+  </Folder>
+  <Folder Name="/40. .NET 10 WPF - New MessageBox Buttons/">
+    <Project Path="Wpf10.NewMessageBoxButtons/Wpf10.NewMessageBoxButtons.csproj" Id="d7b8c86b-c8d4-4be4-8578-a32eae0cf692" />
+  </Folder>
+  <Folder Name="/50. ASP.NET 10 - Support for SSE (server-sent events)/">
+    <Project Path="AspNet10.ServerSentEvents/AspNet10.ServerSentEvents.csproj" Id="10e242e9-67a1-4f88-bbd8-6c122c7dde01" />
+  </Folder>
+  <Folder Name="/51. ASP.NET 10 - New JSON Patch implementation/">
+    <Project Path="AspNet10.JsonPatchDocument/AspNet10.JsonPatchDocument.csproj" Id="6ab030ca-7fb6-4a3b-8fe3-a2e99329ceeb" />
+  </Folder>
+  <Folder Name="/52. ASP.NET 10 - Validation support in Minimal APIs/">
+    <Project Path="AspNet10.MinimalApiValidation/AspNet10.MinimalApiValidation.csproj" Id="b635a7e5-afa6-4bed-bff6-40ff6bfcb178" />
+  </Folder>
+  <Folder Name="/53. ASP.NET 10 - localhost Top-Level Domain/">
+    <Project Path="AspNet10.LocalhostTld/AspNet10.LocalhostTld.csproj" Id="bb9de276-24b5-4bc3-b650-57d5f3719e94" />
+  </Folder>
+  <Folder Name="/60. .NET 10 Blazor - NavigateTo same-page navigation/">
+    <Project Path="Blazor10.NavigateToSamePage/Blazor10.NavigateToSamePage.csproj" Id="d3609df1-c70e-46bf-9422-95876fe29b58" />
+    <Project Path="Blazor9.NavigateToSamePage/Blazor9.NavigateToSamePage.csproj" Id="f0f992ac-8534-49ee-954a-d151502ff4be" />
+  </Folder>
+  <Folder Name="/61. .NET 10 Blazor - Reconnection UI component/">
+    <Project Path="Blazor10.ReconnectionComponent/Blazor10.ReconnectionComponent.csproj" Id="423b640f-4976-4d43-827a-cabd0cf0cbdd" />
+  </Folder>
+  <Folder Name="/62. .NET 10 Blazor - Router has NotFoundPage parameter/">
+    <Project Path="Blazor10.RouterNotFoundPageParameter/Blazor10.RouterNotFoundPageParameter.csproj" Id="3b11bdaa-fdf1-46cd-a766-7fe35abc2b54" />
+  </Folder>
+  <Folder Name="/70. EF 10 - Vector search support/">
+    <Project Path="EF10.VectorSearchSupportForSqlServer2025/EF10.VectorSearchSupportForSqlServer2025.csproj" Id="bf4456f1-f7ff-4fd1-8ff8-d361a753a71e" />
+  </Folder>
+  <Folder Name="/71. EF 10 - JSON type support/">
+    <Project Path="EF10.JsonTypeSupportForSqlServer2025/EF10.JsonTypeSupportForSqlServer2025.csproj" Id="42116c27-2165-4514-8f2a-e0e1eba8147b" />
+  </Folder>
+  <Folder Name="/72. EF 10 - Custom default constraint names/">
+    <Project Path="EF10.CustomDefaultConstraintNames/EF10.CustomDefaultConstraintNames.csproj" Id="5b8e335e-2b79-4c86-8ffd-a81a0c2e9ed4" />
+  </Folder>
+  <Folder Name="/73. EF 10 - Complex types improvements/">
+    <Project Path="EF10.ComplexTypesImprovements/EF10.ComplexTypesImprovements.csproj" Id="e4b63671-b735-42fd-9a29-9c17008600ea" />
+  </Folder>
+  <Folder Name="/74. EF 10 - LeftJoin and RightJoin/">
+    <Project Path="EF10.LeftJoinAndRightJoin/EF10.LeftJoinAndRightJoin.csproj" Id="6e738329-d12c-498f-bacb-af894a8784ae" />
+  </Folder>
+  <Folder Name="/75. EF 10 - Improved translation for parameterized collection/">
+    <Project Path="EF10.ParameterizedCollectionTranslation/EF10.ParameterizedCollectionTranslation.csproj" Id="a3084d21-b843-454d-a9cb-6d3419d64a91" />
+  </Folder>
+  <Folder Name="/76. EF 10 - Redact inlined constants from logging by default/">
+    <Project Path="EF10.RedactInlineConstants/EF10.RedactInlineConstants.csproj" Id="f01ae8f4-c416-4f29-a42d-fdc7f76e03d5" />
+  </Folder>
+  <Folder Name="/77. EF 10 - ExecuteUpdateAsync now accepts a regular, non-expression lambda/">
+    <Project Path="EF10.NonExpressionExecuteUpdateAsync/EF10.NonExpressionExecuteUpdateAsync.csproj" Id="fc3f05b9-3966-4010-b223-35f9cf08b93c" />
+    <Project Path="EF9.NonExpressionExecuteUpdateAsync/EF9.NonExpressionExecuteUpdateAsync.csproj" Id="da688c1f-45ac-404e-b957-2a566917981f" />
+  </Folder>
+  <Folder Name="/91. C# 14 - Extension Members/">
+    <Project Path="CSharp14.ExtensionMembers/CSharp14.ExtensionMembers.csproj" Id="65e3b40f-36bd-4ddc-96a0-6969096f1452" />
+  </Folder>
+  <Folder Name="/92. C# 14 - field keyword/">
+    <Project Path="CSharp14.FieldKeyword/CSharp14.FieldKeyword.csproj" />
+  </Folder>
+  <Folder Name="/93. C# 14 - Nameof Unbound Generics/" Id="31bfa423-fbb7-4464-b711-4b58fc05ae37">
+    <Project Path="CSharp14.NameofUnboundGenerics/CSharp14.NameofUnboundGenerics.csproj" Id="bd2f2b71-6114-443d-a4ec-39ef6c285430" />
+  </Folder>
+  <Folder Name="/94. C# 14 - Simple lambda parameters with modifiers/">
+    <Project Path="CSharp14.SimpleLambdaParametersWithModifiers/CSharp14.SimpleLambdaParametersWithModifiers.csproj" Id="c3f03451-dd72-4a57-87f1-cef9b4d32327" />
+  </Folder>
+  <Folder Name="/95. C# 14 - Even more partials/" Id="02ea681e-c7d8-13c7-8484-4ac65e1b71e8">
+    <Project Path="CSharp14.EvenMorePartials/CSharp14.EvenMorePartials.csproj" Id="825b182b-3429-4855-ab7d-edeedf75c306" />
+  </Folder>
+  <Folder Name="/96. C# 14 - User Defined Compound Assignment Operators/">
+    <Project Path="CSharp14.UserDefinedCompoundAssignmentOperators/CSharp14.UserDefinedCompoundAssignmentOperators.csproj" Id="058c8dfa-b541-4c60-a7fb-6fbc6cffadd8" />
+  </Folder>
+  <Folder Name="/97. C# 14 - Null-conditional assignment/">
+    <Project Path="CSharp14.NullConditionalAssignment/CSharp14.NullConditionalAssignment.csproj" Id="0fc700f1-0fa5-4a19-a643-60b1c463f414" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="sources.txt" />
+  </Folder>
+</Solution>

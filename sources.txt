@@ -1,0 +1,41 @@
+
+What's new in .NET 10
+https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview
+
+What's new in the .NET 10 runtime
+https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/runtime
+
+What's new in .NET libraries for .NET 10
+https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/libraries
+
+What's new in the SDK and tooling for .NET 10
+https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/sdk
+
+What's new in ASP.NET Core in .NET 10
+https://learn.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-10.0?view=aspnetcore-10.0
+
+What's new in .NET MAUI for .NET 10
+https://learn.microsoft.com/en-us/dotnet/maui/whats-new/dotnet-10?view=net-maui-10.0
+
+What's New in EF Core 10
+https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-10.0/whatsnew
+
+What's new in Windows Forms for .NET 10 Release Candidate
+https://learn.microsoft.com/en-us/dotnet/desktop/winforms/whats-new/net100
+
+What's new in WPF for .NET 10 Release Candidate
+https://learn.microsoft.com/en-us/dotnet/desktop/wpf/whats-new/net100
+
+What's new in C# 14
+https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14
+
+GitHub
+https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/preview1/README.md
+https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/preview2/README.md
+https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/preview3/README.md
+https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/preview4/README.md
+https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/preview5/README.md
+https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/preview6/README.md
+https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/preview7/README.md
+https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/rc1/README.md
+https://github.com/dotnet/core/blob/main/release-notes/10.0/preview/rc2/README.md

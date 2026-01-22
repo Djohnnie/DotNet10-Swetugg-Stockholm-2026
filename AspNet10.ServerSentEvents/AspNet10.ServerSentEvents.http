@@ -1,0 +1,6 @@
+@HostAddress = http://localhost:5169
+
+GET {{HostAddress}}/health/
+Accept: text/event-stream
+
+###

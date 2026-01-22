@@ -1,0 +1,18 @@
+@HostAddress = http://localhost:5176
+
+POST {{HostAddress}}/feedback/1042
+Content-Type: application/json
+{
+  "timestamp": "2025-10-30",
+  "contents": "This sucks!"
+}
+
+###
+
+POST {{HostAddress}}/feedback/42
+Content-Type: application/json
+{
+  "timestamp": "2035-10-30"
+}
+
+###

@@ -1,0 +1,19 @@
+﻿<Window x:Class="Wpf10.NewMessageBoxButtons.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf10.NewMessageBoxButtons"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button Margin="10,10,10,5" Padding="10" Click="Button1_Click">OK</Button>
+        <Button Margin="10,5,10,5" Padding="10" Click="Button2_Click">OKCancel</Button>
+        <Button Margin="10,5,10,5" Padding="10" FontWeight="Bold" Click="Button3_Click">AbortRetryIgnore</Button>
+        <Button Margin="10,5,10,5" Padding="10" Click="Button4_Click">YesNoCancel</Button>
+        <Button Margin="10,5,10,5" Padding="10" Click="Button5_Click">YesNo</Button>
+        <Button Margin="10,5,10,5" Padding="10" FontWeight="Bold" Click="Button6_Click">RetryCancel</Button>
+        <Button Margin="10,5,10,5" Padding="10" FontWeight="Bold" Click="Button7_Click">CancelTryContinue</Button>
+        <TextBlock x:Name="resultTextBlock" Margin="10,20,10,10" FontSize="16" FontWeight="Bold" />
+    </StackPanel>
+</Window>
