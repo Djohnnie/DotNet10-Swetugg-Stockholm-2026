@@ -12,15 +12,20 @@ using OllamaSharp;
 // such as semantic search and retrieval-augmented generation (RAG).
 
 var ollamaEndpoint = "http://localhost:11434";
-var ollamaModel = "nomic-embed-text:latest";
+var ollamaModel = "qwen3-embedding:latest";
 var embeddingGenerator = new OllamaApiClient(ollamaEndpoint, ollamaModel);
+
+var embeddingOptions = new EmbeddingGenerationOptions
+{
+    Dimensions = 1998
+};
 
 using var dbContext = new FirstNamesDbContext();
 if (!await dbContext.FirstNames.AnyAsync())
 {
     foreach (var name in Data.FirstNames)
     {
-        var embedding = await embeddingGenerator.GenerateVectorAsync(name);
+        var embedding = await embeddingGenerator.GenerateVectorAsync(name, embeddingOptions);
         dbContext.FirstNames.Add(new FirstName
         {
             Name = name,
@@ -32,7 +37,7 @@ if (!await dbContext.FirstNames.AnyAsync())
 }
 
 
-var sqlVector = new SqlVector<float>(await embeddingGenerator.GenerateVectorAsync("Johnny"));
+var sqlVector = new SqlVector<float>(await embeddingGenerator.GenerateVectorAsync("Johnny", embeddingOptions));
 var topSimilarNames = await dbContext.FirstNames
     .OrderBy(b => EF.Functions.VectorDistance("cosine", b.Embedding, sqlVector))
     .Take(5)

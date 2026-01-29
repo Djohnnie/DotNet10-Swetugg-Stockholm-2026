@@ -16,6 +16,6 @@ internal class FirstNamesDbContext : DbContext
     {
         modelBuilder.Entity<FirstName>()
             .Property(b => b.Embedding)
-            .HasColumnType("vector(768)");
+            .HasColumnType("vector(1998)");
     }
 }

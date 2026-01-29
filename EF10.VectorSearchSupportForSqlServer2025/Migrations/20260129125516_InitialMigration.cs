@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace EF10.VectorSearchSupportForSqlServer2025.Migrations
 {
     /// <inheritdoc />
-    public partial class FirstNames : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,7 +18,7 @@ namespace EF10.VectorSearchSupportForSqlServer2025.Migrations
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Embedding = table.Column<SqlVector<float>>(type: "vector(768)", nullable: false)
+                    Embedding = table.Column<SqlVector<float>>(type: "vector(1998)", nullable: false)
                 },
                 constraints: table =>
                 {

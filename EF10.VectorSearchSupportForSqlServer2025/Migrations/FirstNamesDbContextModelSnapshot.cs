@@ -17,7 +17,7 @@ namespace EF10.VectorSearchSupportForSqlServer2025.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.0-rc.2.25502.107")
+                .HasAnnotation("ProductVersion", "10.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -31,7 +31,7 @@ namespace EF10.VectorSearchSupportForSqlServer2025.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
                     b.Property<SqlVector<float>>("Embedding")
-                        .HasColumnType("vector(768)");
+                        .HasColumnType("vector(1998)");
 
                     b.Property<string>("Name")
                         .IsRequired()

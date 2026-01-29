@@ -12,15 +12,15 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF10.VectorSearchSupportForSqlServer2025.Migrations
 {
     [DbContext(typeof(FirstNamesDbContext))]
-    [Migration("20251027174332_FirstNames")]
-    partial class FirstNames
+    [Migration("20260129125516_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "10.0.0-rc.2.25502.107")
+                .HasAnnotation("ProductVersion", "10.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -34,7 +34,7 @@ namespace EF10.VectorSearchSupportForSqlServer2025.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
                     b.Property<SqlVector<float>>("Embedding")
-                        .HasColumnType("vector(768)");
+                        .HasColumnType("vector(1998)");
 
                     b.Property<string>("Name")
                         .IsRequired()
