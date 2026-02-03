@@ -52,17 +52,17 @@ if (!await dbContext.Students.AnyAsync())
     await dbContext.SaveChangesAsync();
 }
 
-int[] ids1 = [1, 2, 3, 4, 5, 6, 7, 8];
+int[] ids1 = [1, 2];
 var results1 = await dbContext.Students.Where(x => ids1.Contains(x.Id)).ToListAsync();
 Console.WriteLine($"Found {results1.Count} students.");
 Console.WriteLine();
 
-int[] ids2 = [1, 2];
+int[] ids2 = [1, 2, 3, 4];
 var results2 = await dbContext.Students.Where(x => ids2.Contains(x.Id)).ToListAsync();
 Console.WriteLine($"Found {results2.Count} students.");
 Console.WriteLine();
 
-int[] ids3 = [1, 2, 3, 4];
+int[] ids3 = [1, 2, 3, 4, 5, 6, 7, 8];
 var results3 = await dbContext.Students.Where(x => ids3.Contains(x.Id)).ToListAsync();
 Console.WriteLine($"Found {results3.Count} students.");
 Console.WriteLine();

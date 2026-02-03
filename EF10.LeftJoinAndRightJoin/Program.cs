@@ -27,9 +27,9 @@ if (!await dbContext.Addresses.AnyAsync())
 {
     List<Address> addresses =
     [
-        new Address { PersonId = 1, City = "Mechelen" },
-        new Address { PersonId = 2, City = "Kontich" },
-        new Address { PersonId = 4, City = "Antwerpen" }
+        new Address { PersonId = 1, City = "Antwerpen" },
+        new Address { PersonId = 2, City = "Stockholm" },
+        new Address { PersonId = 4, City = "Berlin" }
     ];
 
     dbContext.Addresses.AddRange(addresses);
